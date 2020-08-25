@@ -19,3 +19,18 @@ There are four important details to notice here:
 
 4. We end the line with a semicolon `(;)`, which indicates that this expression is over and the next one is ready to begin.  
    Most lines of Rust code end with a semicolon.
+
+#### Compiling a Rust program
+```
+$ rustc main.rs
+```
+on linux it will create binary excecutables.
+```
+$ ls
+main  main.rs
+```
+#### Running a Rust program
+Simply run the `main` file, like this
+```
+$ ./main
+```
